@@ -14,7 +14,6 @@ class DataSet:
 
     def describe(self):
         print(f"File path: {self.path}, Size: {os.path.getsize(self.path)} bytes, Created: {os.path.getctime(self.path)}")
-        print(self.load().describe())
 
 
 class CSVDataSet(DataSet):

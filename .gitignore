@@ -1,7 +1,8 @@
 outputs/
-
-.venv/
-
 __pycache__/
-
 reflection.md
+*.pyc
+.venv/
+venv/
+.DS_Store
+.ipynb_checkpoints/ 
